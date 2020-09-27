@@ -55,7 +55,8 @@ def iterate_dir(source, dest, ratio, copy_xml):
             xml_filename = os.path.splitext(filename)[0]+'.xml'
             copyfile(os.path.join(source, xml_filename),
                      os.path.join(train_dir, xml_filename))
-
+    print('Successfully created the Train-Dir: {}'.format(train_dir))
+    print('Successfully created the TFRecord file: {}'.format(test_dir))
 
 def main():
 

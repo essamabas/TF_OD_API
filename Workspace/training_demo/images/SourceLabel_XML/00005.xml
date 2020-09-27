@@ -1,0 +1,26 @@
+<annotation>
+	<folder>SourceData</folder>
+	<filename>00005.jpg</filename>
+	<path>C:\Users\uic28209\Documents\ContiDataset\TensorFlow\SourceData\00005.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>436</xmin>
+			<ymin>484</ymin>
+			<xmax>731</xmax>
+			<ymax>677</ymax>
+		</bndbox>
+	</object>
+</annotation>
